@@ -1,0 +1,357 @@
+header
+{
+	height: 450px;
+	background: url(Images/324H.jpg) center;
+	background-size:cover;
+
+}
+@media screen and (max-width: 650px)
+{
+	#AboutMe .faceImage
+	{
+		display: block;
+		text-align: center;
+		width: 100%;
+	}
+	#AboutMe p
+	{
+		text-align:center;
+		width: auto;
+		background-position: center center;
+	}
+
+}
+nav.a
+{
+	display: inline-block;
+	margin-left: 30px;
+	font-size: 14px;
+	font-weight: 700;
+	font-color: #FF6347;;
+	text-transform: uppercase;
+	float: right;
+
+}
+
+a
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	margin-left: 15px;
+	float: right;
+	margin: 30px 30px 0 0;
+}
+
+p.greeting
+{
+	font-family: 'Amatic SC', cursive;
+	font-color: white;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	letter-spacing: .25em;
+	font-color: white;
+	clear:both;
+	line-height: 1;
+	padding-top: 50px;
+	padding-right: 350px;
+
+
+}
+
+p.title
+{
+	font-family: 'Amatic SC', cursive;
+	font-size: 70px;
+	text-align: center;
+	letter-spacing: .25em;
+	clear: both;
+	margin-top: -10px;
+	margin-bottom: -10px;
+	color: white;
+	
+
+}
+
+p.greeting2
+{
+	font-family: 'Amatic SC', cursive, white;
+	font-weight: 700;
+	text-align: center;
+	letter-spacing: .25em;
+	font-color: white;
+	clear: both;
+	padding-left: 465px;
+	color: white;
+}
+
+span
+{
+	display: inline-block;
+	padding: .5em;
+	border: white solid 07px;
+}
+
+a:hover
+{
+  color: #8B3626;
+  position: relative;
+  transition-property: background-color, color;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+  background-color:white;
+  color:black;
+}
+
+#AboutMe p
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 35px auto;
+	color: black;
+	text-align: center;
+	max-width: 620px
+	padding: 0 15px;
+	padding-right: 250px;
+	padding-left: 250px;
+	font-size: 20px;
+	font-weight: 100;
+
+
+}
+
+#AboutMe h3
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #F08080;
+	text-align: center;
+	font-size: 24px;
+}
+
+#AboutMe .faceImage
+{
+	width: 100px;
+	height: 170px;
+	background: url(Images/Me.jpg) center;
+	background-size: cover;
+	align-items: center;
+	border-radius: 50%;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+#pictures h3
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #F08080;
+	text-align: center;
+	font-size: 24px;
+}
+
+#pictures .pictureContainer
+{
+	max-width: 960px;
+	margin: 0px auto;
+	padding-bottom: 270px;
+	padding-right: 100px;
+}
+
+#pictures .pictureUnit
+{
+	width: 25%;
+	background: pink;
+	display: block;
+	position:relative;
+	padding-top: 22%;
+
+	background-image: url(Images/Dog.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+#pictures .overlay:hover
+{
+	visibility: visible;
+ 	opacity: .5;
+	background-color: #F08080;
+	width: 300px;
+	-webkit-transition: width 1s, height 1s, background-color 1s, -webkit-transform 1s;
+    transition: width 1s, height 1s, background-color 1s, transform 1s;
+
+}
+#pictures .overlay
+{
+		visibility: hidden;
+
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	opacity: 0;
+
+
+	transition: width 2s height 4s;
+	transition-timing-function: ease-in;
+
+}
+
+#Resume
+{
+	background-color: #FEE0C6;
+
+}
+#Resume h2
+{
+	padding-top: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #F08080;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: -10px;
+}
+
+#Resume p.workexperience
+{
+	padding-top: 20px;
+	color: #F08080;
+
+}
+
+#Resume p.other
+{
+	padding-top: 20px;
+}
+
+#Resume p.lastItem
+{
+	padding-bottom: 20px;
+}
+
+#Resume p
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 0px auto;
+	color: black;
+	text-align: left
+	max-width: 620px
+	padding: 0 15px;
+	padding-right: 200px;
+	padding-left: 200px;
+	font-size: 20px;
+	font-weight: 100;
+	margin-left: 70px;
+}
+
+#ContactMe h2
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #F08080;
+	text-align: center;
+	font-size: 24px;
+}
+
+#ContactMe p
+{
+	font-family: 'Open Sans Condensed', sans-serif;
+	margin: 35px auto;
+	color: black;
+	text-align: center;
+	max-width: 620px
+	padding: 0 15px;
+	padding-right: 250px;
+	padding-left: 250px;
+	font-size: 24px;
+	font-weight: 100;
+}
+
+
+#ContactMe .iconWrapper
+{
+	clear:both;
+}
+#ContactMe a
+{
+	float:left;
+	text-align: center;
+	object-position: center;
+
+transition-property: all;
+  transition-property: transform;
+}
+
+
+#ContactMe span.icon-github
+
+{
+	max-width: 700px;
+	margin: 0px auto 50px;
+	display: flex;
+	justify-content: space-between;
+	background: #FEE0C6;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 40px;
+	margin-left: 515px;
+
+
+
+	
+}
+
+#ContactMe span.icon-linkedin2
+{
+	max-width: 700px;
+	margin: 0px auto 50px;
+	display: flex;
+	object-position: center;
+	justify-content: space-between;
+	background: #FEE0C6;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 50%;
+	font-size: 40px;
+
+
+}
+
+#ContactMe
+{
+	text-align: center;
+}
+#ContactMe .bar
+{
+	width: 300px;
+	height: 0px;
+	border-top: 4px solid #FEE0C6;
+	margin: 0px auto 50px;
+	font-color: #FEE0C6;
+	clear: both;
+
+}
+
+#ContactMe a.biglink
+{
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+	font-weight: 300px;
+	color: #F08080;
+	padding-bottom: 70px;
+	position: relative;
+	margin-left: 500px;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+

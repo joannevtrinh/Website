@@ -1,0 +1,103 @@
+</!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" type="text/css" href="main.css">
+ <link rel="stylesheet" type="text/css" href="iconFont.css">
+ <meta name = "Joanne" content = "width=device-width, initial-scale=1">
+ <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+  <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+ <script type="text/javascript" src="js/jquery.scrollTo.js"></script>
+
+</head>
+<body>
+
+<header>
+
+	<nav>
+	<a href = "#AboutMe">About Me</a>
+	<a href = "#Resume">Resume</a>
+	<a href = "#ContactMe">Contact Me</a>
+	</nav>
+
+	<p class = "greeting">Hello there! My name is...</p>
+	<p class = "title"><span>Joanne Trinh</span></p>
+	<p class = "greeting2">How are you?</p>
+</header>
+
+<section id = "AboutMe" class = "section">
+	<h3>About Me</h3>
+		<div class = "faceImage"></div>
+	<div class = "intro">
+	<p class = "intro"><strong>My name's Joanne Trinh </strong>and I'm an upcoming graduating student from University of California, Irvine, Class of 2017. I'll be graduating in the summer with a degree in Computer Science with a specialitization in Systems and Software. I love dogs, food, milktea, playing games, and just being a potato in general. You can find me in the Bay Area, CA.
+		</p>
+		</div>
+</section>
+
+
+<section id = "Resume" class = "section">
+<h2>Resume</h2>
+
+<p class = "workexperience">Education</p>
+<p>University of California, Irvine</p>
+<p>B.S. in Computer Science</p>
+<p>Expected Graduation: September 2017</p>
+
+<p class = "workexperience">Skills</p>
+<p>Very Proficient: C++, Java/J2EE</p>
+<p>Proficient: x86 Assembly, C, Python, CSS, HTML, JavaScript</p>
+<p>Software/Tools: Git, Linux/UNIX, Bash, Windows, OS X, Visual Studios, Xcode, Eclipse.</p>
+
+<p class = "workexperience">Work Experience</p>
+<p>Keyssa, Campbell </p>
+<p>Systems Engineer Intern. 	August 2015 - September 2015</p>
+<p class = "paragraph"> - Performed bench-level characterizations on boards in the laboratory.</p>
+<p class = "paragraph"> - Developed tools to help facilitate tasks performed by other engineers, improving work efficiency.</p>
+<p class = "paragraph"> - Performed quality assurance checks on boards by verifying boards for correct voltage, SPI, and firmware.</p>
+<p class = "paragraph"> - Tested chip parts and recorded jitter activity and other statistics.</p>
+
+
+<p class = "other">Keyssa, Campbell </p>
+<p>Software and Systems Engineer Intern. 	June 2016 - September 2016</p>
+<p> - Updated and redesigned a program in Java that reads and writes to registers from SLT motherboards.</p>
+<p> - Redesigned an existing software interface to be more efficient and user friendly.</p>
+
+<p class = "workexperience">Projects</p>
+<p>Portfolio Website</p>
+<p> - Developed a website displaying my portfolio using HTML, CSS, and JavaScript.</p>
+<p class = "lastItem"> - https://joannevtrinh.github.io/test.html.</p>
+
+
+</section>
+		
+<section id = "ContactMe" class = "section">
+<h2> Contact Me</h2>
+<div class = "iconWrapper">
+<a href = "https://github.com/joannevtrinh">
+	<span class="icon-github"></span>
+</a>
+<a href = "https://www.linkedin.com/in/joanne-trinh-1ba7bbb0/">
+	
+	<span class="icon-linkedin2"></span>
+</a>
+</div>
+
+
+<hr class = "bar">
+<a class = "biglink" href = "mailto:joannevtrinh@gmail.com">joannevtrinh@gmail.com</a>
+</hr>
+</section>
+      
+
+
+    
+</body>
+</html>
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+}
